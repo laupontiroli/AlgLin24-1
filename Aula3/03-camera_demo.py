@@ -34,6 +34,7 @@ def run():
         # A variável image é um np.array com shape=(width, height, colors)
         image = np.array(frame).astype(float)/255
 
+        
         # Agora, mostrar a imagem na tela!
         cv.imshow('Minha Imagem!', image)
         
